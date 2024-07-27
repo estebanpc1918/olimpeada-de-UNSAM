@@ -1,5 +1,5 @@
 def zetadieta(c,p,g):
-    cant_ban = (c+26) // 27
+    cant_bana = (c+26) // 27
     cant_atun = (p+29) // 30
     
     caloria_ban = cant_ban * 105
