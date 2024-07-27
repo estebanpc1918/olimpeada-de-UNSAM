@@ -1,1 +1,14 @@
 
+definición zetadieta(c,p,g):
+    no puede_prohibir = (c+26) // 27
+    cant_atun = (p+29) // 30
+    
+    caloria_ban = no_cant_ban * 105
+    caloria_atun = cant_atun * 120
+    caloria_acei = g * 9
+
+    calorias_total = (caloria_acei + caloria_atun + caloria_ban)
+    devolver calorias_total
+    
+C, P, G = map(int, input('Ingrese los valores de C, P, G separados por espacios: ').split())
+imprimir(zetadieta(C, P, G))
